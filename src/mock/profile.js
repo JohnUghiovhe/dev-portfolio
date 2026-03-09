@@ -1,23 +1,23 @@
 export const SOCIAL_LINKS = [
   {
-    link: 'https://twitter.com/dhavalCode',       
+    link: 'https://twitter.com/john_ughiovhe',       
     icon: 'akar-icons:twitter-fill',        
   },
   {
-    link: 'https://github.com/dhavalcode',
+    link: 'https://github.com/JohnUghiovhe',
     icon: 'akar-icons:github-fill',
   },
   {
-    link: 'https://linkedin.com/in/dhavalcode',
+    link: 'https://www.linkedin.com/in/john-ughiovhe',
     icon: 'akar-icons:linkedin-fill',
   },
 ];
 
-export const HERO_TITLES = ['Dhaval Patel', 'Full-stack Engineer', 'AI Enthusiast'];
+export const HERO_TITLES = ['John Ughiovhe', 'Full-stack Engineer', 'AI Enthusiast'];
 
 export const aboutParagraph =
-  'Highly motivated and enthusiastic Full Stack Engineer with experience in designing, developing and maintaining web applications using technologies such as Generative AI, Typescript, React, Next.js, Node.js, Python.';
+  'Highly motivated and enthusiastic Full Stack Engineer with experience in designing, developing and maintaining web applications using technologies such as Generative AI, Typescript, React, Next.js, Nest.js, Node.js, Express.js.';
 
-export const contactEmail = 'works.dhaval@gmail.com';
+export const contactEmail = 'ughiovhejohn@gmail.com';
 
-export const documentTitle = 'Hello I am Dhaval Patel | Full Stack Engineer | AI Enthusiast'
+export const documentTitle = 'Hello I am John Ughiovhe | Full Stack Engineer | AI Enthusiast'

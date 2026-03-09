@@ -19,7 +19,7 @@ export const FRONTEND_SKILLS = [
   },
   {
     label: 'Typescript',
-    proficiency: '80%',
+    proficiency: '90%',
     icon: 'logos:typescript-icon',
     iconClasses: 'text-2xl',
   },
@@ -31,21 +31,9 @@ export const FRONTEND_SKILLS = [
   },
   {
     label: 'Next.js',
-    proficiency: '90%',
+    proficiency: '80%',
     icon: 'cib:next-js',
     iconClasses: 'text-3xl',
-  },
-  {
-    label: 'Gatsby',
-    proficiency: '90%',
-    icon: 'logos:gatsby',
-    iconClasses: 'text-3xl',
-  },
-  {
-    label: 'Material UI (mui)',
-    proficiency: '90%',
-    icon: 'logos:material-ui',
-    iconClasses: 'text-2xl',
   },
   {
     label: 'Tailwind CSS',
@@ -54,28 +42,10 @@ export const FRONTEND_SKILLS = [
     iconClasses: 'text-2xl',
   },
   {
-    label: 'SCSS',
-    proficiency: '90%',
-    icon: 'vscode-icons:file-type-scss2',
-    iconClasses: 'text-3xl',
-  },
-  {
     label: 'Bootstrap',
     proficiency: '90%',
     icon: 'logos:bootstrap',
     iconClasses: 'text-2xl',
-  },
-  {
-    label: 'Styled Components',
-    proficiency: '90%',
-    icon: 'simple-icons:styled-components',
-    iconClasses: 'text-4xl',
-  },
-  {
-    label: 'Redux',
-    proficiency: '90%',
-    icon: 'logos:redux',
-    iconClasses: 'text-3xl',
   },
   {
     label: 'React Router',
@@ -88,18 +58,6 @@ export const FRONTEND_SKILLS = [
     proficiency: '90%',
     icon: 'logos:react-query-icon',
     iconClasses: 'text-3xl',
-  },
-  {
-    label: 'React Hook Form',
-    proficiency: '90%',
-    icon: 'fluent:form-20-regular',
-    iconClasses: 'text-3xl',
-  },
-  {
-    label: 'Lodash',
-    proficiency: '90%',
-    icon: 'logos:lodash',
-    iconClasses: 'text-xl',
   },
 ];
 
@@ -123,22 +81,10 @@ export const BACKEND_SKILLS = [
     iconClasses: 'text-3xl',
   },
   {
-    label: 'Graphql',
+    label: 'NestJS',
     proficiency: '90%',
-    icon: 'logos:graphql',
-    iconClasses: 'text-3xl',
-  },
-  {
-    label: 'Prisma',
-    proficiency: '90%',
-    icon: 'vscode-icons:file-type-light-prisma',
-    iconClasses: 'text-3xl',
-  },
-  {
-    label: 'Sequelize',
-    proficiency: '90%',
-    icon: 'vscode-icons:file-type-sequelize',
-    iconClasses: 'text-3xl',
+    icon: 'logos:nestjs-icon',
+    iconClasses: 'text-2xl',
   },
   {
     label: 'PostgreSQL',
@@ -147,9 +93,9 @@ export const BACKEND_SKILLS = [
     iconClasses: 'text-3xl',
   },
   {
-    label: 'MySQL',
+    label: 'Swagger',
     proficiency: '90%',
-    icon: 'logos:mysql',
+    icon: 'logos:swagger',
     iconClasses: 'text-2xl',
   },
   {
@@ -158,40 +104,21 @@ export const BACKEND_SKILLS = [
     icon: 'vscode-icons:file-type-mongo',
     iconClasses: 'text-3xl',
   },
-  {
-    label: 'AWS',
+  {label: 'Redis',
     proficiency: '80%',
-    icon: 'logos:aws',
-    iconClasses: 'text-xl',
-  },
-  {
-    label: 'Github',
-    proficiency: '80%',
-    icon: 'akar-icons:github-fill',
-    iconClasses: 'text-3xl',
-  },
-  {
-    label: 'Bitbucket',
-    proficiency: '80%',
-    icon: 'logos:bitbucket',
+    icon: 'logos:redis',
     iconClasses: 'text-2xl',
+  },
+  {
+    label: 'Socket.io',
+    proficiency: '80%',
+    icon: 'logos:socket-io',
+    iconClasses: 'text-3xl',
   },
   {
     label: 'Docker',
     proficiency: '80%',
     icon: 'logos:docker-icon',
-    iconClasses: 'text-2xl',
-  },
-  {
-    label: 'Heroku',
-    proficiency: '80%',
-    icon: 'logos:heroku-icon',
-    iconClasses: 'text-2xl',
-  },
-  {
-    label: 'Vercel',
-    proficiency: '80%',
-    icon: 'logos:vercel-icon',
     iconClasses: 'text-2xl',
   },
 ];
@@ -204,6 +131,10 @@ export const FRONTEND_DESCRIPTIONS = [
 
 export const BACKEND_DESCRIPTIONS = [
   'Building RESTful APIs and GraphQL APIs.',
+  'Building server-side applications using Node.js and Express.',
+  'Building server-side applications using NestJS.',
+  'Integrating third-party APIs and services into applications.',
+  'Implementing authentication and authorization using technologies such as JWT and OAuth.',
   'Worked with various Node.js modules and libraries, such as Express to develop full-stack applications.',
-  'good understanding of database design in technologies such as PostgreSQL and MySQL.',
+  'Good understanding of database design in technologies such as MongoDB, PostgreSQL and MySQL.',
 ];
